@@ -1,0 +1,25 @@
+{
+  "name": "incognito-link",
+  "version": "1.0.0",
+  "description": "Open a link in Incognito mode with ⇧ + Alt or ⇧ + ⌥",
+  "license": "MIT",
+  "repository": "francoischalifour/incognito-link",
+  "author": {
+    "name": "Francois Chalifour",
+    "email": "francois.chalifour@gmail.com",
+    "url": "http://francoischalifour.com"
+  },
+  "main": "extension/app.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "standard": {
+    "globals": [
+      "chrome"
+    ]
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
+}
