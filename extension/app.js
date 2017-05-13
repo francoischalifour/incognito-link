@@ -1,20 +1,3 @@
-/*
- * We attach a click event to all the elements in the document
- * with a value for the href attribute (`document.links`).
- * We execute the script if the link is clicked pressing the
- * correct key combinaison.
- *
- * See https://github.com/francoischalifour/incognito-link#usage
- */
-for (const link of document.links) {
-  link.addEventListener('click', e => {
-    if (e.altKey && e.shiftKey) {
-      e.preventDefault()
-      createWindow(e.target)
-    }
-  })
-}
-
 /**
  * Sends the action `createWindow` to event listeners in `background.js`.
  *
@@ -35,3 +18,22 @@ const createWindow = target => {
     createWindow(target.parentNode)
   }
 }
+
+/*
+ * We attach a click event to all the elements in the document
+ * with a value for the href attribute (`document.links`).
+ * We execute the script if the link is clicked pressing the
+ * correct key combinaison.
+ *
+ * See https://github.com/francoischalifour/incognito-link#usage
+ */
+document.addEventListener('DOMContentLoaded', () => {
+  for (const link of document.links) {
+    link.addEventListener('click', e => {
+      if (e.altKey && e.shiftKey) {
+        e.preventDefault()
+        createWindow(e.target)
+      }
+    })
+  }
+})

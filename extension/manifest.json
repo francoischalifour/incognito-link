@@ -19,7 +19,8 @@
       ],
       "js": [
         "app.js"
-      ]
+      ],
+      "run_at": "document_start"
     }
   ]
 }
