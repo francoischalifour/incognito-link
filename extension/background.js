@@ -1,7 +1,10 @@
 /*
- * Opens a given url in a new incognito window.
+ * Runs an action in background.
  *
- * Fires when we call `chrome.runtime.sendMessage` in `app.js`.
+ * Actions:
+ *   - CREATE_INCOGNITO_WINDOW: opens the url in a new Incognito window
+ *
+ * Fired when we call `chrome.runtime.sendMessage` in `app.js`.
  */
 chrome.runtime.onMessage.addListener(({ action, url }) => {
   if (action === 'CREATE_INCOGNITO_WINDOW') {

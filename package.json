@@ -16,8 +16,7 @@
   },
   "standard": {
     "globals": [
-      "chrome",
-      "MutationObserver"
+      "chrome"
     ]
   },
   "devDependencies": {
