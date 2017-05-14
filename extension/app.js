@@ -2,14 +2,13 @@
  * Checks if the `href` attribute is a real URL.
  *
  * We reject links that cannot be opened in a new window,
- * like empty anchors and scripts.
+ * like empty href and scripts.
  *
  * @param {String} href The href value to check
  * @returns {Boolean} `true` if the link is openable, `false` otherwise
  */
 const isOpenableURL = href =>
   href.length > 0 &&
-  href !== '#' &&
   !href.startsWith('javascript:')
 
 /**
