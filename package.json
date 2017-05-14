@@ -1,6 +1,6 @@
 {
   "name": "incognito-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Open a link in Incognito mode with ⇧ + Alt or ⇧ + ⌥",
   "license": "MIT",
   "repository": "francoischalifour/incognito-link",
@@ -16,7 +16,8 @@
   },
   "standard": {
     "globals": [
-      "chrome"
+      "chrome",
+      "MutationObserver"
     ]
   },
   "devDependencies": {
