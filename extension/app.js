@@ -1,7 +1,7 @@
 /**
  * Checks if the `href` attribute is a real URL.
  *
- * We reject links that cannot be open in a new window,
+ * We reject links that cannot be opened in a new window,
  * like empty anchors and scripts.
  *
  * @param {String} href The href value to check
