@@ -1,7 +1,7 @@
 {
   "name": "incognito-link",
   "version": "1.0.2",
-  "description": "Open a link in Incognito mode with ⇧ + Alt or ⇧ + ⌥",
+  "description": "Google Chrome extension to open a link in Incognito mode with ⇧-Alt or ⇧-⌥",
   "license": "MIT",
   "repository": "francoischalifour/incognito-link",
   "author": {
