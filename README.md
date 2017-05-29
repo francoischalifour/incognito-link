@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://cdn.rawgit.com/francoischalifour/incognito-link/998ccccda57710992c1a6c8177f3f8a8d280cf5d/logo.svg" width="300" alt="incognito-link">
+  <img src="https://cdn.rawgit.com/francoischalifour/incognito-link/master/logo.svg" width="300" alt="incognito-link">
 </h1>
 
 > Google Chrome extension to open a link in [Incognito mode](https://support.google.com/chromebook/answer/95464) with <kbd>⇧</kbd> <kbd>Alt</kbd> or <kbd>⇧</kbd> <kbd>⌥</kbd> (macOS).
