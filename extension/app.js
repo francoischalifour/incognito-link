@@ -31,7 +31,7 @@ const getLink = node => {
  * @param {object} e The event
  */
 const onClick = e => {
-  if (!e.shiftKey && !e.altKey) {
+  if (!e.shiftKey || !e.altKey) {
     return
   }
 
