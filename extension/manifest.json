@@ -3,7 +3,7 @@
   "description": "Open a link in Incognito mode with ⇧-Alt or ⇧-⌥",
   "homepage_url": "https://github.com/francoischalifour/incognito-link",
   "manifest_version": 2,
-  "version": "1.0.2",
+  "version": "1.1.1",
   "icons": {
     "128": "icon.png"
   },
